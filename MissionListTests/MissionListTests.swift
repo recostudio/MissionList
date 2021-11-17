@@ -10,6 +10,24 @@ import XCTest
 
 class MissionListTests: XCTestCase {
 
+    func missionListDecoding() {
+        // tu uzyc apimanagera
+        // DI
+//        let bundle = Bundle(for: type(of: self))
+//        guard let url = bundle.url(forResource: "Missions", withExtension: "json"),
+//              let data = try? Data(contentsOf: url) else {
+//                  return
+//              }
+//        let decoder = JSONDecoder()
+//        decoder.keyDecodingStrategy = .convertFromSnakeCase
+//        guard let mission = try? decoder.decode(Mission.self, from: data) else {
+//            return
+//        }
+        
+//        XCTAssertEqual(mission.missionName, "Thaicom")
+//        XCTAssertEqual(mission.missionId, "9D1B7E0")
+        
+    }
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
