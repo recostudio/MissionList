@@ -16,7 +16,6 @@ class ApiManager {
     
     let baseUrl = "https://api.spacexdata.com/"
     
-    
     func fetchMissions(_ completion: @escaping (_ result: Result<[Mission], Error>) -> Void) {
         
         let request = AF.request("https://api.spacexdata.com/v3/missions").response {data in
@@ -36,13 +35,8 @@ class ApiManager {
                 print(error)
                 completion(.failure(error))
             }
-            
-            
-        } // jak znam strukture/model wtedy uzywam i robimy decodable
-        //        let request2 = AF.request("https://api.spacexdata.com/v3/missions").responseJSON{data in print(data) } //deprecated chyba ze nie znamy kluczy do struktury
-        //    let request = AF.request("https://api.spacexdata.com/v3/missions").response {response in debugPrint(response)
-        //        print(response)
-        
+        }
     }
+
     
 }

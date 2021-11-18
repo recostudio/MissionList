@@ -21,6 +21,8 @@
 		BE704DBE273FC28300A430C0 /* MissionListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE704DBD273FC28300A430C0 /* MissionListUITests.swift */; };
 		BE704DC0273FC28300A430C0 /* MissionListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE704DBF273FC28300A430C0 /* MissionListUITestsLaunchTests.swift */; };
 		BE704DCD273FC55400A430C0 /* MissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE704DCC273FC55400A430C0 /* MissionModel.swift */; };
+		BE7885062745728600D625AC /* MissionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7885052745728600D625AC /* MissionDetailVC.swift */; };
+		BE7885082745FEA600D625AC /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7885072745FEA600D625AC /* DescriptionCell.swift */; };
 		BEA6738927426CC400CF452D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6738827426CC400CF452D /* ApiManager.swift */; };
 		BEA6738D2742816300CF452D /* Missions.json in Resources */ = {isa = PBXBuildFile; fileRef = BEA6738C2742816300CF452D /* Missions.json */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,8 @@
 		BE704DBD273FC28300A430C0 /* MissionListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListUITests.swift; sourceTree = "<group>"; };
 		BE704DBF273FC28300A430C0 /* MissionListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BE704DCC273FC55400A430C0 /* MissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModel.swift; sourceTree = "<group>"; };
+		BE7885052745728600D625AC /* MissionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailVC.swift; sourceTree = "<group>"; };
+		BE7885072745FEA600D625AC /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 		BEA6738827426CC400CF452D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		BEA6738C2742816300CF452D /* Missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Missions.json; sourceTree = "<group>"; };
 		DEADF71AEF0971CDFBB17B65 /* Pods-MissionList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MissionList.release.xcconfig"; path = "Target Support Files/Pods-MissionList/Pods-MissionList.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,12 +132,14 @@
 				BE704D9C273FC28200A430C0 /* AppDelegate.swift */,
 				BE704D9E273FC28200A430C0 /* SceneDelegate.swift */,
 				BE704DA0273FC28200A430C0 /* MissionListVC.swift */,
+				BE7885052745728600D625AC /* MissionDetailVC.swift */,
 				BE704DA2273FC28200A430C0 /* Main.storyboard */,
 				BE704DCC273FC55400A430C0 /* MissionModel.swift */,
 				BE704DA5273FC28300A430C0 /* Assets.xcassets */,
 				BE704DA7273FC28300A430C0 /* LaunchScreen.storyboard */,
 				BE704DAA273FC28300A430C0 /* Info.plist */,
 				BE4B4D00274475F400DBCB65 /* TitileSubtitleCell.swift */,
+				BE7885072745FEA600D625AC /* DescriptionCell.swift */,
 			);
 			path = MissionList;
 			sourceTree = "<group>";
@@ -429,7 +435,9 @@
 			files = (
 				BE704DA1273FC28200A430C0 /* MissionListVC.swift in Sources */,
 				BE704D9D273FC28200A430C0 /* AppDelegate.swift in Sources */,
+				BE7885062745728600D625AC /* MissionDetailVC.swift in Sources */,
 				BE4B4D01274475F400DBCB65 /* TitileSubtitleCell.swift in Sources */,
+				BE7885082745FEA600D625AC /* DescriptionCell.swift in Sources */,
 				BEA6738927426CC400CF452D /* ApiManager.swift in Sources */,
 				BE704D9F273FC28200A430C0 /* SceneDelegate.swift in Sources */,
 				BE704DCD273FC55400A430C0 /* MissionModel.swift in Sources */,
